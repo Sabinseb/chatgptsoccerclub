@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background for the body */
+    color: #333; /* Dark grey text for better readability */
+}
+header {
+    background-color: #000; /* Black background for the header */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    text-align: center;
+}
+header a {
+    color: #fff; /* White text for links */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    background-color: #800000; /* Maroon background for tabs */
+    padding: 10px;
+    border-radius: 5px;
+}
+header a:hover {
+    background-color: #b30000; /* Slightly lighter maroon on hover */
+}
+footer {
+    background-color: #000; /* Black footer */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.main-content {
+    margin: 20px;
+    text-align: center;
+}
+.team-image {
+    width: 70%;
+    border-radius: 10px;
+    border: 3px solid #800000; /* Maroon border around the team image */
+}
+form {
+    margin-top: 20px;
+    background-color: #fafafa; /* Very light grey background for form */
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc; /* Light grey border */
+}
+input[type="text"], input[type="email"], textarea {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #800000; /* Maroon background for submit button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #b30000; /* Lighter maroon on hover */
+}
